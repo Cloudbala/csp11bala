@@ -18,6 +18,6 @@ public class LambdaPoc1Application {
         MathOperation addition = (int a, int b) -> a + b;
         MathOperation subraction = (int a, int b) -> a - b;
         System.out.println("10 + 5 = " + operate(10, 5, addition));
-        System.out.println("10 - 5 = " + operate(10, 5, subraction));
+        //System.out.println("10 - 5 = " + operate(10, 5, subraction));
     }
 }
